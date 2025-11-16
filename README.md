@@ -6,7 +6,7 @@ It simulates the experience of viewing live stocks, managing a personal watchlis
 The project demonstrates frontend logic, local storage management, and dynamic JSON data handling — making it a great portfolio project for beginners learning web development and data-driven UI design.
 
 ## Mini Zerodha Dashboard Webpages snaps
-
+[https://github.com/Mariya-Sharli/Mini_Zerodha_Dashboard/tree/main/project/IMAGES]
 
 ## 💡 Key Features
 

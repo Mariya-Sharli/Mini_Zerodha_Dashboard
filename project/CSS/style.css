@@ -1,0 +1,81 @@
+      
+body
+{
+
+    min-height: 100vh;
+    background:radial-gradient(circle at center,rgb(190, 119, 190) 0%,rgb(177, 93, 177) 25%,rgb(169, 109, 169) 45%,rgb(188, 124, 188) 55%,rgb(184, 112, 184) 60%,rgb(183, 131, 183)78%,rgb(161, 69, 222));
+   
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+nav{
+    
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav div{
+
+     font-size: x-large;
+    font-weight: bold;
+    background: linear-gradient(rgb(127, 127, 188),rgb(188, 114, 188));
+    -webkit-background-clip: text; /* For Chrome, Edge, Safari */
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+    cursor: pointer;
+}
+
+nav div a:hover{
+    -webkit-text-fill-color: white; 
+}
+header{
+    background-color: darkgrey;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+header i{
+    padding: 5px;
+
+}
+
+
+ section {
+    
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  width: 100%; /* responsive */
+  margin-top: 10px;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 350px;
+  margin-right: 10px;
+  background: purple;
+ box-shadow: 30px 20px 60px rgb(130, 93, 173);
+ object-fit: contain;   /* makes image fill without distortion */
+ 
+
+}
+
+.carousel-cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* fills nicely without distortion */
+ 
+}
+
+

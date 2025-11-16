@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/userDashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
+
+     
+</head>
+<body>
+    <header>
+      
+      <i class="fa fa-android" style="font-size:24px"></i>
+      <i class="fa fa-apple" style="font-size:24px"></i>
+      <i class='fa fa-twitter' style="font-size:24px"></i>
+      <i class='fa fa-facebook ' style="font-size:24px"></i>
+      <i class="fa fa-github" style="font-size:24px"></i>&nbsp;&nbsp;&nbsp;
+      <h1>------------------------------Welcome to User Dashboard---------------------------------</h1>
+    
+
+    </header>
+    <nav>
+        <img src="../IMAGES/msLogo.jpg" style="height: 60px; width: 80px;">
+        <div><a href="../HTML/userDashboard.html" style="-webkit-text-fill-color: aliceblue;">User Dashboard</a></div>
+        <div><a href="../HTML/watchlist.html">Watchlist</a></div>
+        <div><a href="../HTML/addMony.html">Wallet</a></div>
+        <div><a href="../HTML/portfolio.html">Portfolio</a></div>
+        <div style="margin-left: auto;"><a href="../HTML/dashboard.html">Logout</a></div>
+      
+    </nav> 
+    <!-- <p>Wallet: ₹<span id="walletDisplay"></span></p> -->
+    <div class="wallet">Wallet: ₹<span id="walletBalance">0</span></div>
+
+    <div class="main">
+   <main class="box1">
+  <table id="stockTable">
+    <thead>
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>Sector</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody id="stockBody"></tbody>
+  </table>
+ </main>
+</div>
+
+    <script src="../JS/dashboard.js"> </script>
+      
+
+
+
+</body>
+</html>

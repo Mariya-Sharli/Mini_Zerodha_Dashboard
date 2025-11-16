@@ -1,0 +1,31 @@
+[
+  { "symbol": "TCS", "name": "Tata Consultancy Services", "price": 3450, "change": "+1.2%", "sector": "IT" },
+  { "symbol": "INFY", "name": "Infosys Ltd", "price": 1590, "change": "-0.5%", "sector": "IT" },
+  { "symbol": "WIPRO", "name": "Wipro Ltd", "price": 455, "change": "+0.9%", "sector": "IT" },
+
+  { "symbol": "HDFC", "name": "HDFC Bank", "price": 2780, "change": "+0.8%", "sector": "Banking" },
+  { "symbol": "ICICI", "name": "ICICI Bank", "price": 910, "change": "-0.2%", "sector": "Banking" },
+  { "symbol": "AXIS", "name": "Axis Bank", "price": 1040, "change": "+1.0%", "sector": "Banking" },
+
+  { "symbol": "RELIANCE", "name": "Reliance Industries", "price": 2320, "change": "+0.4%", "sector": "Energy" },
+  { "symbol": "ONGC", "name": "ONGC Ltd", "price": 190, "change": "+0.7%", "sector": "Energy" },
+
+  { "symbol": "HCL", "name": "HCL Technologies", "price": 1680, "change": "+1.6%", "sector": "IT" },
+  { "symbol": "TECHM", "name": "Tech Mahindra", "price": 1340, "change": "-0.3%", "sector": "IT" },
+
+  { "symbol": "MARUTI", "name": "Maruti Suzuki", "price": 10850, "change": "+0.9%", "sector": "Automobile" },
+  { "symbol": "TATAMOTORS", "name": "Tata Motors", "price": 670, "change": "+2.1%", "sector": "Automobile" },
+  { "symbol": "M&M", "name": "Mahindra & Mahindra", "price": 1520, "change": "-0.1%", "sector": "Automobile" },
+
+  { "symbol": "SBIN", "name": "State Bank of India", "price": 645, "change": "+0.5%", "sector": "Banking" },
+  { "symbol": "KOTAK", "name": "Kotak Mahindra Bank", "price": 1730, "change": "-0.4%", "sector": "Banking" },
+
+  { "symbol": "ASIANPAINT", "name": "Asian Paints", "price": 3280, "change": "+1.3%", "sector": "FMCG" },
+  { "symbol": "DABUR", "name": "Dabur India", "price": 580, "change": "+0.2%", "sector": "FMCG" },
+
+  { "symbol": "ADANIPORTS", "name": "Adani Ports", "price": 1250, "change": "+1.7%", "sector": "Logistics" },
+  { "symbol": "ADANIPOWER", "name": "Adani Power", "price": 465, "change": "-0.6%", "sector": "Energy" },
+
+  { "symbol": "BHARTIARTL", "name": "Bharti Airtel", "price": 930, "change": "+0.5%", "sector": "Telecom" },
+  { "symbol": "VODAFONE", "name": "Vodafone Idea", "price": 15, "change": "+3.2%", "sector": "Telecom" }
+]

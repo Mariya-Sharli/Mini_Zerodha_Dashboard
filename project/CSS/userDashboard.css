@@ -1,0 +1,139 @@
+   
+body
+{
+
+    min-height: 100vh;
+    background:radial-gradient(circle at center,rgb(190, 119, 190) 0%,rgb(177, 93, 177) 25%,rgb(169, 109, 169) 45%,rgb(188, 124, 188) 55%,rgb(184, 112, 184) 60%,rgb(183, 131, 183)78%,rgb(161, 69, 222));
+   
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+nav{
+    
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav div{
+
+     font-size: x-large;
+    font-weight: bold;
+    background: linear-gradient(rgb(127, 127, 188),rgb(188, 114, 188));
+    -webkit-background-clip: text; /* For Chrome, Edge, Safari */
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+    cursor: pointer;
+}
+.box1{
+  position: relative;
+    margin-top: 20px;
+      height: 1000px;
+      background-color: purple;
+      border-radius: 10px;
+      aspect-ratio: 1/1;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    @property --deg {
+      syntax: '<angle>';
+        inherits: true;
+        initial-value: 0deg;
+    }
+    .box1::after,
+    .box1::before{
+      content: "";
+      height: 100%;
+      width: 100%;
+      padding: 2px;
+      position: absolute;
+
+      border-radius: inherit;
+      background: conic-gradient(
+        from var(--deg) at center,
+        red,
+        yellow,
+        yellow,
+        red
+      );
+      z-index: -2;
+      animation: autoRotate 2s linear infinite;
+    }
+
+    .box1::after{
+      filter: blur(10px);
+    }
+
+    @keyframes autoRotate {
+    to{
+       --deg:360deg;
+      }
+    }
+
+nav div a:hover{
+    -webkit-text-fill-color: white; 
+}
+header{
+    background-color: darkgrey;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+header i{
+    padding: 5px;
+
+}
+
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  position: absolute;
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 20px;
+}
+
+th
+{
+   padding: 10px;
+  text-align: left;
+  background-color: purple;
+  border-bottom: 1px solid rgb(188, 114, 188);
+ 
+}
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  background: #1e88e5;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1565c0;
+}
+main {
+  padding: 20px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../CSS/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+ <header>
+      
+      <i class="fa fa-android" style="font-size:24px"></i>
+      <i class="fa fa-apple" style="font-size:24px"></i>
+      <i class='fa fa-twitter' style="font-size:24px"></i>
+      <i class='fa fa-facebook ' style="font-size:24px"></i>
+      <i class="fa fa-github" style="font-size:24px"></i>&nbsp;&nbsp;&nbsp;
+      <h1>------------------------------Welcome to User Portfolio---------------------------------</h1>
+    
+
+    </header>
+    <nav>
+        <img src="../IMAGES/msLogo.jpg" style="height: 60px; width: 80px;">
+        <div><a href="../HTML/userDashboard.html" >User Dashboard</a></div>
+        <div><a href="../HTML/watchlist.html">Watchlist</a></div>
+        <div><a href="../HTML/addMony.html">Wallet</a></div>
+        <div><a href="../HTML/portfolio.html" style="-webkit-text-fill-color: aliceblue;">Portfolio</a></div>
+         <div style="margin-left: auto;"><a href="../HTML/dashboard.html">Logout</a></div>
+    </nav> 
+
+<!-- <div class="walletBar">
+    Wallet Balance: ₹<span id="walletBalance">0</span>
+</div> -->
+  <div class="wallet">Wallet: ₹<span id="walletBalance">0</span></div>
+
+<div class="main">
+    <main class="box1">
+        <table id="portfolioTable">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                    <th>Sell</th>
+                </tr>
+            </thead>
+            <tbody id="portfolioBody"></tbody>
+        </table>
+    </main>
+</div>
+
+<script src="../JS/portfolio.js"></script>
+
+</body>
+</html>
